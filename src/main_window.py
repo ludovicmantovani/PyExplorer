@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
     def __init__(self, context):
         super().__init__()
         self.ctx = context
-        self.setWindowTitle("Title")
+        self.setWindowTitle("PyExplorer")
         self.setup_ui()
 
     def setup_ui(self):
